@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5B955A1844FD3B0051C0E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5B95591844FD3B0051C0E1 /* UIKit.framework */; };
+		EC5B955C1844FD3B0051C0E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5B955B1844FD3B0051C0E1 /* Foundation.framework */; };
+		EC5B955E1844FD3B0051C0E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5B955D1844FD3B0051C0E1 /* CoreGraphics.framework */; };
+		EC5B95641844FD3B0051C0E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5B95621844FD3B0051C0E1 /* InfoPlist.strings */; };
+		EC5B95661844FD3B0051C0E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B95651844FD3B0051C0E1 /* main.m */; };
+		EC5B956A1844FD3B0051C0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B95691844FD3B0051C0E1 /* AppDelegate.m */; };
+		EC5B956C1844FD3B0051C0E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5B956B1844FD3B0051C0E1 /* Default.png */; };
+		EC5B956E1844FD3B0051C0E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5B956D1844FD3B0051C0E1 /* Default@2x.png */; };
+		EC5B95701844FD3B0051C0E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5B956F1844FD3B0051C0E1 /* Default-568h@2x.png */; };
+		EC5B95731844FD3B0051C0E1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5B95711844FD3B0051C0E1 /* MainStoryboard_iPhone.storyboard */; };
+		EC5B95761844FD3B0051C0E1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5B95741844FD3B0051C0E1 /* MainStoryboard_iPad.storyboard */; };
+		EC5B95791844FD3B0051C0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B95781844FD3B0051C0E1 /* ViewController.m */; };
+		EC5B9580184500050051C0E1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5B957F184500050051C0E1 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC5B95561844FD3B0051C0E1 /* BallDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5B95591844FD3B0051C0E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC5B955B1844FD3B0051C0E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC5B955D1844FD3B0051C0E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC5B95611844FD3B0051C0E1 /* BallDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BallDrop-Info.plist"; sourceTree = "<group>"; };
+		EC5B95631844FD3B0051C0E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC5B95651844FD3B0051C0E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC5B95671844FD3B0051C0E1 /* BallDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BallDrop-Prefix.pch"; sourceTree = "<group>"; };
+		EC5B95681844FD3B0051C0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC5B95691844FD3B0051C0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC5B956B1844FD3B0051C0E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC5B956D1844FD3B0051C0E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC5B956F1844FD3B0051C0E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC5B95721844FD3B0051C0E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EC5B95751844FD3B0051C0E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EC5B95771844FD3B0051C0E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC5B95781844FD3B0051C0E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC5B957F184500050051C0E1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5B95531844FD3B0051C0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5B9580184500050051C0E1 /* QuartzCore.framework in Frameworks */,
+				EC5B955A1844FD3B0051C0E1 /* UIKit.framework in Frameworks */,
+				EC5B955C1844FD3B0051C0E1 /* Foundation.framework in Frameworks */,
+				EC5B955E1844FD3B0051C0E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5B954D1844FD3B0051C0E1 = {
+			isa = PBXGroup;
+			children = (
+				EC5B955F1844FD3B0051C0E1 /* BallDrop */,
+				EC5B95581844FD3B0051C0E1 /* Frameworks */,
+				EC5B95571844FD3B0051C0E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5B95571844FD3B0051C0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B95561844FD3B0051C0E1 /* BallDrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5B95581844FD3B0051C0E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B957F184500050051C0E1 /* QuartzCore.framework */,
+				EC5B95591844FD3B0051C0E1 /* UIKit.framework */,
+				EC5B955B1844FD3B0051C0E1 /* Foundation.framework */,
+				EC5B955D1844FD3B0051C0E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC5B955F1844FD3B0051C0E1 /* BallDrop */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B95681844FD3B0051C0E1 /* AppDelegate.h */,
+				EC5B95691844FD3B0051C0E1 /* AppDelegate.m */,
+				EC5B95711844FD3B0051C0E1 /* MainStoryboard_iPhone.storyboard */,
+				EC5B95741844FD3B0051C0E1 /* MainStoryboard_iPad.storyboard */,
+				EC5B95771844FD3B0051C0E1 /* ViewController.h */,
+				EC5B95781844FD3B0051C0E1 /* ViewController.m */,
+				EC5B95601844FD3B0051C0E1 /* Supporting Files */,
+			);
+			path = BallDrop;
+			sourceTree = "<group>";
+		};
+		EC5B95601844FD3B0051C0E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B95611844FD3B0051C0E1 /* BallDrop-Info.plist */,
+				EC5B95621844FD3B0051C0E1 /* InfoPlist.strings */,
+				EC5B95651844FD3B0051C0E1 /* main.m */,
+				EC5B95671844FD3B0051C0E1 /* BallDrop-Prefix.pch */,
+				EC5B956B1844FD3B0051C0E1 /* Default.png */,
+				EC5B956D1844FD3B0051C0E1 /* Default@2x.png */,
+				EC5B956F1844FD3B0051C0E1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5B95551844FD3B0051C0E1 /* BallDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5B957C1844FD3B0051C0E1 /* Build configuration list for PBXNativeTarget "BallDrop" */;
+			buildPhases = (
+				EC5B95521844FD3B0051C0E1 /* Sources */,
+				EC5B95531844FD3B0051C0E1 /* Frameworks */,
+				EC5B95541844FD3B0051C0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallDrop;
+			productName = BallDrop;
+			productReference = EC5B95561844FD3B0051C0E1 /* BallDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5B954E1844FD3B0051C0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = kiqueDev;
+			};
+			buildConfigurationList = EC5B95511844FD3B0051C0E1 /* Build configuration list for PBXProject "BallDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC5B954D1844FD3B0051C0E1;
+			productRefGroup = EC5B95571844FD3B0051C0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5B95551844FD3B0051C0E1 /* BallDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5B95541844FD3B0051C0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5B95641844FD3B0051C0E1 /* InfoPlist.strings in Resources */,
+				EC5B956C1844FD3B0051C0E1 /* Default.png in Resources */,
+				EC5B956E1844FD3B0051C0E1 /* Default@2x.png in Resources */,
+				EC5B95701844FD3B0051C0E1 /* Default-568h@2x.png in Resources */,
+				EC5B95731844FD3B0051C0E1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				EC5B95761844FD3B0051C0E1 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5B95521844FD3B0051C0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5B95661844FD3B0051C0E1 /* main.m in Sources */,
+				EC5B956A1844FD3B0051C0E1 /* AppDelegate.m in Sources */,
+				EC5B95791844FD3B0051C0E1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC5B95621844FD3B0051C0E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5B95631844FD3B0051C0E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC5B95711844FD3B0051C0E1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5B95721844FD3B0051C0E1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5B95741844FD3B0051C0E1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5B95751844FD3B0051C0E1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5B957A1844FD3B0051C0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5B957B1844FD3B0051C0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5B957D1844FD3B0051C0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BallDrop/BallDrop-Prefix.pch";
+				INFOPLIST_FILE = "BallDrop/BallDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC5B957E1844FD3B0051C0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BallDrop/BallDrop-Prefix.pch";
+				INFOPLIST_FILE = "BallDrop/BallDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5B95511844FD3B0051C0E1 /* Build configuration list for PBXProject "BallDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5B957A1844FD3B0051C0E1 /* Debug */,
+				EC5B957B1844FD3B0051C0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5B957C1844FD3B0051C0E1 /* Build configuration list for PBXNativeTarget "BallDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5B957D1844FD3B0051C0E1 /* Debug */,
+				EC5B957E1844FD3B0051C0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5B954E1844FD3B0051C0E1 /* Project object */;
+}
